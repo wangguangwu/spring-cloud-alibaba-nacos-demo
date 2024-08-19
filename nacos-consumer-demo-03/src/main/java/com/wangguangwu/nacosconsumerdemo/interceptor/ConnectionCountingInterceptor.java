@@ -37,6 +37,9 @@ public class ConnectionCountingInterceptor implements ClientHttpRequestIntercept
     @Resource
     private ConnectionCounterManager connectionCounterManager;
 
+    /**
+     * 负载均衡器实例管理器
+     */
     @Resource
     private LoadBalancerManager loadBalancerManager;
 

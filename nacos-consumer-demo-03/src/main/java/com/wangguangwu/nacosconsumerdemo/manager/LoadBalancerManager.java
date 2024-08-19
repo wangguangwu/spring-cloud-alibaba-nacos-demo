@@ -8,6 +8,8 @@ import javax.annotation.Resource;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
+ * 负载均衡器实例管理器。
+ *
  * @author wangguangwu
  */
 @Component
